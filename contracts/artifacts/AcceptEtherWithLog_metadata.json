@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_who",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Deposited",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Events_For_Logging_And_Callback.sol": "AcceptEtherWithLog"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Events_For_Logging_And_Callback.sol": {
+			"keccak256": "0xd52a9b9b63283357d5f13960a9ea145ebf0a480fdb4eb4c443a22da205c26a8f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bec796c3f8cde332b9e2f11bf3d498581fdc3ba9d510d4983eb33975cc7b7bca",
+				"dweb:/ipfs/QmNrXK7B5tqQMSM9yrvjZdTd9B9i4ojn5x1Kqk6cyiHMJF"
+			]
+		}
+	},
+	"version": 1
+}
